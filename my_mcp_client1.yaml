@@ -1,0 +1,34 @@
+type: mcpClient.insomnia.rest/5.0
+schema_version: "5.1"
+name: My MCP Client
+meta:
+  id: wrk_9029a0c722224a97a002131716ba638f
+  created: 1763793665457
+  modified: 1763793665457
+  description: ""
+mcpRequest:
+  name: ""
+  url: http://123
+  transportType: streamable-http
+  headers:
+    - name: User-Agent
+      value: insomnia/12.1.0-beta.0
+    - name: foo
+      value: bar
+      description: ""
+      disabled: false
+  meta:
+    id: mcp-req_29474917be384f38812e2e20a669cdaf
+    created: 1763793665463
+    modified: 1763793700523
+  roots:
+    - uri: file://123
+environments:
+  name: Base Environment
+  meta:
+    id: env_8505a9fd613e891bea27c369ca6d038c0b41bfa7
+    created: 1763793665458
+    modified: 1763793678787
+    isPrivate: false
+  data:
+    test: "123"
