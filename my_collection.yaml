@@ -41,5 +41,7 @@ environments:
   meta:
     id: env_55ab5bfd9788bcffa03f05a6491bfc59a78c1103
     created: 1763907945436
-    modified: 1763907945436
+    modified: 1764233445240
     isPrivate: false
+  data:
+    foo: bar
