@@ -17,13 +17,13 @@ mcpRequest:
     type: oauth2
     disabled: false
     grantType: mcp_auth_flow
-    clientId: ""
+    clientId: JS1lUXuI2oDqDViu
     scope: ""
     tokenPrefix: bearer
   meta:
     id: mcp-req_504518993b57465eb0cab7e44e752e16
     created: 1764230084992
-    modified: 1764232894955
+    modified: 1764234812482
 environments:
   name: Base Environment
   meta:
