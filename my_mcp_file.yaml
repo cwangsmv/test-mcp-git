@@ -1,0 +1,37 @@
+type: mcpClient.insomnia/5.0
+schema_version: "5.1"
+name: mcp file
+meta:
+  id: wrk_33d0047ace604426aa6856af63204cf1
+  created: 1764230049275
+  modified: 1764230049275
+  description: ""
+mcpRequest:
+  name: ""
+  url: npx -y @modelcontextprotocol/server-everything stdio
+  transportType: stdio
+  headers:
+    - name: User-Agent
+      value: insomnia/12.1.0
+  meta:
+    id: mcp-req_d1d9e69f4d0f4f2cbe9cbbf30741f27e
+    created: 1764230049282
+    modified: 1764233094724
+  env:
+    - id: envPair_a596ef5f141a4e57b64f5a406e221d21
+      name: foo
+      value: bar
+      type: str
+      enabled: true
+    - id: envPair_8f3bdc483753482b85436d047328eae5
+      name: test
+      value: "123"
+      type: str
+      enabled: false
+environments:
+  name: Base Environment
+  meta:
+    id: env_ec6c11b5bac06cd5ec0ef77bf3c0f80fe67df461
+    created: 1764230049279
+    modified: 1764230049279
+    isPrivate: false

@@ -1,0 +1,35 @@
+type: mcpClient.insomnia/5.0
+schema_version: "5.1"
+name: mcp oauth
+meta:
+  id: wrk_2ee269d985ec46d2b52fd421c7e75ff5
+  created: 1764230084952
+  modified: 1764230084952
+  description: ""
+mcpRequest:
+  name: ""
+  url: https://mcp.notion.com/mcp
+  transportType: streamable-http
+  headers:
+    - name: User-Agent
+      value: insomnia/12.1.0
+  authentication:
+    type: oauth2
+    disabled: false
+    grantType: mcp_auth_flow
+    clientId: ""
+    scope: ""
+    tokenPrefix: bearer
+  meta:
+    id: mcp-req_504518993b57465eb0cab7e44e752e16
+    created: 1764230084992
+    modified: 1764232894955
+environments:
+  name: Base Environment
+  meta:
+    id: env_f991293e9db2045724fd73f31a4de9d811bed812
+    created: 1764230084990
+    modified: 1764232558764
+    isPrivate: false
+  data:
+    secret: value

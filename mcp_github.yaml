@@ -1,0 +1,37 @@
+type: mcpClient.insomnia/5.0
+schema_version: "5.1"
+name: mcp github
+meta:
+  id: wrk_b57468bb1ac5496baa1e7dcca928bfa9
+  created: 1764230285040
+  modified: 1764230285040
+  description: ""
+mcpRequest:
+  name: ""
+  url: https://api.githubcopilot.com/mcp/
+  transportType: streamable-http
+  headers:
+    - name: User-Agent
+      value: insomnia/12.1.0
+  authentication:
+    type: oauth2
+    disabled: false
+    grantType: mcp_auth_flow
+    clientId: "{{ _.clientId }}"
+    clientSecret: "{{ _.clientSecret }}"
+    scope: ""
+    tokenPrefix: bearer
+  meta:
+    id: mcp-req_574b2a5624b44f9f845feb87fdf9c7eb
+    created: 1764230285046
+    modified: 1764232945163
+environments:
+  name: Base Environment
+  meta:
+    id: env_7776766d3e0d036aa92b65bb03bf724fbde4d076
+    created: 1764230285043
+    modified: 1764232918800
+    isPrivate: false
+  data:
+    clientId: id
+    clientSecret: sec

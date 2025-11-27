@@ -1,0 +1,26 @@
+type: mcpClient.insomnia/5.0
+schema_version: "5.1"
+name: mcp everything
+meta:
+  id: wrk_a5f4d49b70104f069e6966507fdf0888
+  created: 1764230063614
+  modified: 1764230063614
+  description: ""
+mcpRequest:
+  name: ""
+  url: http://localhost:3001/mcp
+  transportType: streamable-http
+  headers:
+    - name: User-Agent
+      value: insomnia/12.1.0
+  meta:
+    id: mcp-req_9e96affaec604857807d960f7a2430c8
+    created: 1764230063646
+    modified: 1764232756599
+environments:
+  name: Base Environment
+  meta:
+    id: env_5bb3c105c533bb57647b85d260fe123d38724794
+    created: 1764230063644
+    modified: 1764230063644
+    isPrivate: false
