@@ -7,12 +7,12 @@ meta:
   modified: 1763907945434
   description: ""
 collection:
-  - url: https://httpbin.org/get
-    name: New Request
+  - url: https://httpbin.org/get/v1
+    name: New Request-debug
     meta:
       id: req_1f587e8fcfa94c11ba5b936e4ab9151d
       created: 1763907947601
-      modified: 1763907957428
+      modified: 1768294107774
       isPrivate: false
       description: ""
       sortKey: -1763907947601
