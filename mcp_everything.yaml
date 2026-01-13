@@ -13,10 +13,16 @@ mcpRequest:
   headers:
     - name: User-Agent
       value: insomnia/12.1.0
+  authentication:
+    type: basic
+    useISO88591: false
+    username: foo
+    password: bar
+    disabled: false
   meta:
     id: mcp-req_9e96affaec604857807d960f7a2430c8
     created: 1764230063646
-    modified: 1764232756599
+    modified: 1768289020101
 environments:
   name: Base Environment
   meta:
