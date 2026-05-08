@@ -8,15 +8,15 @@ meta:
   description: ""
 collection:
   - url: https://httpbin.org/get/v1
-    name: New Request-debug
+    name: normal request
     meta:
       id: req_1f587e8fcfa94c11ba5b936e4ab9151d
       created: 1763907947601
-      modified: 1768294107774
+      modified: 1775542671005
       isPrivate: false
       description: ""
       sortKey: -1763907947601
-    method: GET
+    method: POST
     headers:
       - name: User-Agent
         value: insomnia/12.1.0
@@ -30,6 +30,165 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: ""
+    name: Pinned request
+    meta:
+      id: req_d66c25ef5ec44e6c868ee7d7018cb20d
+      created: 1775542595908
+      modified: 1775542703120
+      isPrivate: false
+      description: ""
+      sortKey: -1775542595908
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.5.0-beta.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: ""
+    name: Pinned request1
+    meta:
+      id: req_2d0befbf6abb40158210c7b129cefc41
+      created: 1775542634102
+      modified: 1776007104946
+      isPrivate: false
+      description: ""
+      sortKey: -1775276765797.5
+    method: GET
+    parameters:
+      - name: "1"
+        value: "2"
+        description: ""
+        disabled: false
+    headers:
+      - name: User-Agent
+        value: insomnia/12.5.0-beta.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://httpbin.org/get
+    name: request patch
+    meta:
+      id: req_14ad7d3bd1724415a9ba75d5704868d6
+      created: 1775542660422
+      modified: 1776135065222
+      isPrivate: false
+      description: ""
+      sortKey: -1776134117029
+    method: PATCH
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://httpbin.org/get/v1
+    name: request post
+    meta:
+      id: req_7dbf9b6086234898a4db607b25f04379
+      created: 1775542667990
+      modified: 1775542683647
+      isPrivate: false
+      description: ""
+      sortKey: -1763565893070.75
+    method: POST
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: ""
+    name: New Request
+    meta:
+      id: req_bda3feac15714f2c97ec1a327ac2e37c
+      created: 1775985662756
+      modified: 1776134103438
+      isPrivate: false
+      description: ""
+      sortKey: -1775542595958
+    method: POST
+    body:
+      mimeType: application/graphql
+      text: ""
+    headers:
+      - name: User-Agent
+        value: insomnia/12.4.0
+        description: ""
+        disabled: false
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - name: My Folder pinned
+    meta:
+      id: fld_629d6d2c55424e5d84174bcd0fae0380
+      created: 1775542781093
+      modified: 1776135055928
+      sortKey: -1776134117054
+      description: ""
+  - name: My Folder
+    meta:
+      id: fld_b1538d34e3664371866e7566c4b4e5c4
+      created: 1776134117004
+      modified: 1776134117004
+      sortKey: -1776134117004
+      description: ""
+    children:
+      - url: ""
+        name: New WebSocket Request
+        meta:
+          id: ws-req_d1f5791e820b41d396ec14b695e1d8fd
+          created: 1775985669506
+          modified: 1776134124236
+          description: ""
+          sortKey: -1776134124193
+        settings:
+          encodeUrl: true
+          cookies:
+            store: true
+            send: true
+          followRedirects: global
+        headers:
+          - name: User-Agent
+            value: insomnia/12.4.0
+            description: ""
+            disabled: false
 cookieJar:
   name: Default Jar
   meta:
