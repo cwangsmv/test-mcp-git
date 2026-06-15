@@ -8,7 +8,7 @@ meta:
   description: ""
 mcpRequest:
   name: ""
-  url: http://localhost:3001/mcp122222
+  url: http://localhost:3001/mcp
   transportType: streamable-http
   headers:
     - name: User-Agent
@@ -22,7 +22,7 @@ mcpRequest:
   meta:
     id: mcp-req_9e96affaec604857807d960f7a2430c8
     created: 1764230063646
-    modified: 1768894816175
+    modified: 1779259344958
 environments:
   name: Base Environment
   meta:
