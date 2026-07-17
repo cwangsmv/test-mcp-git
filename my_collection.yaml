@@ -7,16 +7,16 @@ meta:
   modified: 1763907945434
   description: ""
 collection:
-  - url: https://httpbin.io/get/v12
+  - url: https://httpbin.io/get
     name: normal request
     meta:
       id: req_1f587e8fcfa94c11ba5b936e4ab9151d
       created: 1763907947601
-      modified: 1784279873344
+      modified: 1784280008491
       isPrivate: false
       description: ""
       sortKey: -1763907947601
-    method: POST
+    method: GET
     headers:
       - name: User-Agent
         value: insomnia/12.1.0
@@ -155,13 +155,6 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - name: My Folder pinned
-    meta:
-      id: fld_629d6d2c55424e5d84174bcd0fae0380
-      created: 1775542781093
-      modified: 1776135055928
-      sortKey: -1776134117054
-      description: ""
   - name: My Folder
     meta:
       id: fld_b1538d34e3664371866e7566c4b4e5c4
