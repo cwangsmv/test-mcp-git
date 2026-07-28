@@ -35,11 +35,11 @@ collection:
     meta:
       id: req_d66c25ef5ec44e6c868ee7d7018cb20d
       created: 1775542595908
-      modified: 1775542703120
+      modified: 1785224970671
       isPrivate: false
       description: ""
       sortKey: -1775542595908
-    method: GET
+    method: POST
     headers:
       - name: User-Agent
         value: insomnia/12.5.0-beta.0
