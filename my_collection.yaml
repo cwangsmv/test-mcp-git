@@ -81,12 +81,12 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: https://httpbin.org/get
+  - url: https://httpbin.org/get1
     name: request patch
     meta:
       id: req_14ad7d3bd1724415a9ba75d5704868d6
       created: 1775542660422
-      modified: 1776135065222
+      modified: 1787041410062
       isPrivate: false
       description: ""
       sortKey: -1776134117029
