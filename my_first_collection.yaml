@@ -43,6 +43,13 @@ environments:
     created: 1776220732733
     modified: 1776220732733
     isPrivate: false
+testSuites:
+  - name: New Suite
+    meta:
+      id: uts_e7e3f581c6b74f7dbbe38dc40fdf8299
+      created: 1787731477792
+      modified: 1787731477792
+      sortKey: -1787731477792
 spec:
   contents:
     openapi: 3.0.0
