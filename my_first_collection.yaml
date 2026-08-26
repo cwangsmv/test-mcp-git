@@ -1,4 +1,4 @@
-type: collection.insomnia.rest/5.0
+type: spec.insomnia.rest/5.0
 schema_version: "5.1"
 name: My first collection
 meta:
@@ -43,13 +43,6 @@ environments:
     created: 1776220732733
     modified: 1776220732733
     isPrivate: false
-testSuites:
-  - name: New Suite
-    meta:
-      id: uts_e7e3f581c6b74f7dbbe38dc40fdf8299
-      created: 1787731477792
-      modified: 1787731477792
-      sortKey: -1787731477792
 spec:
   contents:
     openapi: 3.0.0
@@ -191,4 +184,11 @@ spec:
   meta:
     id: spc_fa2a6cb75423456f96d6d1365c32558d
     created: 1787731105859
-    modified: 1787731105859
+    modified: 1787734313057
+testSuites:
+  - name: New Suite
+    meta:
+      id: uts_e7e3f581c6b74f7dbbe38dc40fdf8299
+      created: 1787731477792
+      modified: 1787731477792
+      sortKey: -1787731477792
