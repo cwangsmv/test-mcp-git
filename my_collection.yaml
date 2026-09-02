@@ -1,4 +1,4 @@
-type: collection.insomnia.rest/5.0
+type: spec.insomnia.rest/5.0
 schema_version: "5.1"
 name: My Collection
 meta:
@@ -35,11 +35,16 @@ collection:
     meta:
       id: req_d66c25ef5ec44e6c868ee7d7018cb20d
       created: 1775542595908
-      modified: 1785224970671
+      modified: 1788169569333
       isPrivate: false
       description: ""
       sortKey: -1775542595908
     method: POST
+    parameters:
+      - name: foo
+        value: ""
+        description: ""
+        disabled: false
     headers:
       - name: User-Agent
         value: insomnia/12.5.0-beta.0
@@ -197,3 +202,8 @@ environments:
     isPrivate: false
   data:
     foo: bar
+spec:
+  meta:
+    id: spc_a7cb6ebb888c4acb8a3fd717bf552ce8
+    created: 1788164010392
+    modified: 1788243078824

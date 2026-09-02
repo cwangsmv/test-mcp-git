@@ -1,47 +1,23 @@
 type: spec.insomnia.rest/5.0
 schema_version: "5.1"
-name: My first collection
+name: api-docu-like-collection
 meta:
-  id: wrk_4fd31b57caba40dcbc92970ad3c9d15f
-  created: 1776220732731
-  modified: 1776220732731
+  id: wrk_e7c130b8a70a4a5aaebcdbf75368cf2a
+  created: 1788334136007
+  modified: 1788334136007
   description: ""
-collection:
-  - url: ""
-    name: My first request
-    meta:
-      id: req_f18c35d31cce45a6a6daadd68b43c5cd
-      created: 1776220732735
-      modified: 1776220732735
-      isPrivate: false
-      description: ""
-      sortKey: -1776220732735
-    method: GET
-    headers:
-      - name: User-Agent
-        value: insomnia/12.5.0
-        description: ""
-        disabled: false
-    settings:
-      renderRequestBody: true
-      encodeUrl: true
-      followRedirects: global
-      cookies:
-        send: true
-        store: true
-      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
-    id: jar_18aa8775c869886c454c71f9d40dbeb5c7bcb74c
-    created: 1776220732734
-    modified: 1776220732734
+    id: jar_31a142312cf4a73a87e6a81a1e1d7dec38dbbbf2
+    created: 1788334136049
+    modified: 1788334136049
 environments:
   name: Base Environment
   meta:
-    id: env_18aa8775c869886c454c71f9d40dbeb5c7bcb74c
-    created: 1776220732733
-    modified: 1776220732733
+    id: env_31a142312cf4a73a87e6a81a1e1d7dec38dbbbf2
+    created: 1788334136048
+    modified: 1788334136048
     isPrivate: false
 spec:
   contents:
@@ -182,13 +158,6 @@ spec:
             - title
             - completed
   meta:
-    id: spc_fa2a6cb75423456f96d6d1365c32558d
-    created: 1787731105859
-    modified: 1787734313057
-testSuites:
-  - name: New Suite
-    meta:
-      id: uts_e7e3f581c6b74f7dbbe38dc40fdf8299
-      created: 1787731477792
-      modified: 1787731477792
-      sortKey: -1787731477792
+    id: spc_28689d99e9b0487eb6b7e6abb4cd9423
+    created: 1788334140522
+    modified: 1788334140522
