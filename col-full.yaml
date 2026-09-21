@@ -1,0 +1,117 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: col-full
+meta:
+  id: wrk_04654468a6b9414cb47c9b2f072a4de4
+  created: 1789984415944
+  modified: 1789984415944
+  description: ""
+collection:
+  - url: ""
+    name: http
+    meta:
+      id: req_6d0718c1877440aebca3da7691059ca6
+      created: 1789984418452
+      modified: 1789984421562
+      isPrivate: false
+      description: ""
+      sortKey: -1789984418452
+    method: GET
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - name: fd1
+    meta:
+      id: fld_7ffbe25de1764ee8acba7f50bcd2662c
+      created: 1789984427168
+      modified: 1789984427168
+      sortKey: -1789984427168
+      description: ""
+    children:
+      - url: ""
+        name: gql
+        meta:
+          id: req_33bb3db699004d84a955e4b986500352
+          created: 1789984430600
+          modified: 1789984432451
+          isPrivate: false
+          description: ""
+          sortKey: -1789984430600
+        method: POST
+        body:
+          mimeType: application/graphql
+          text: ""
+        headers:
+          - name: Content-Type
+            value: application/json
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: ""
+        name: wsr
+        meta:
+          id: ws-req_77f5ee7308fe43a798f3a0ec663a1d94
+          created: 1789984435804
+          modified: 1789984439646
+          description: ""
+          sortKey: -1789984435804
+        settings:
+          encodeUrl: true
+          cookies:
+            store: true
+            send: true
+          followRedirects: global
+      - url: ""
+        name: sior
+        meta:
+          id: socketio-req_6c64a45db1eb4fd68f393103e2d00c92
+          created: 1789984442686
+          modified: 1789984446389
+          description: ""
+          sortKey: -1789984442686
+        settings:
+          encodeUrl: true
+          cookies:
+            store: true
+            send: true
+  - url: ""
+    name: grpcR
+    meta:
+      id: greq_e53857d153fb4725bbc7b1f736e5f68b
+      created: 1789984457414
+      modified: 1789984460426
+      isPrivate: false
+      description: ""
+      sortKey: -1789984457414
+    body:
+      text: "{}"
+    protoFileId: ""
+    protoMethodName: ""
+    reflectionApi:
+      enabled: false
+      url: https://buf.build
+      apiKey: ""
+      module: buf.build/connectrpc/eliza
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_075c419b4117b1c7d05a68d21f676fb0f10fa17c
+    created: 1789984415964
+    modified: 1789984415964
+environments:
+  name: Base Environment
+  meta:
+    id: env_075c419b4117b1c7d05a68d21f676fb0f10fa17c
+    created: 1789984415963
+    modified: 1789984415963
+    isPrivate: false
