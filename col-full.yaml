@@ -1,5 +1,5 @@
 type: collection.insomnia.rest/5.0
-schema_version: "5.1"
+schema_version: "5.2"
 name: col-full
 meta:
   id: wrk_04654468a6b9414cb47c9b2f072a4de4
@@ -8,11 +8,12 @@ meta:
   description: ""
 collection:
   - url: ""
-    name: http
+    name: http1
+    type: Request
     meta:
       id: req_6d0718c1877440aebca3da7691059ca6
       created: 1789984418452
-      modified: 1789984421562
+      modified: 1789984686118
       isPrivate: false
       description: ""
       sortKey: -1789984418452
@@ -26,6 +27,7 @@ collection:
         store: true
       rebuildPath: true
   - name: fd1
+    type: RequestGroup
     meta:
       id: fld_7ffbe25de1764ee8acba7f50bcd2662c
       created: 1789984427168
@@ -35,6 +37,7 @@ collection:
     children:
       - url: ""
         name: gql
+        type: Request
         meta:
           id: req_33bb3db699004d84a955e4b986500352
           created: 1789984430600
@@ -59,6 +62,7 @@ collection:
           rebuildPath: true
       - url: ""
         name: wsr
+        type: WebSocketRequest
         meta:
           id: ws-req_77f5ee7308fe43a798f3a0ec663a1d94
           created: 1789984435804
@@ -73,6 +77,7 @@ collection:
           followRedirects: global
       - url: ""
         name: sior
+        type: SocketIORequest
         meta:
           id: socketio-req_6c64a45db1eb4fd68f393103e2d00c92
           created: 1789984442686
@@ -93,6 +98,7 @@ collection:
       isPrivate: false
       description: ""
       sortKey: -1789984457414
+    type: GrpcRequest
     body:
       text: "{}"
     protoFileId: ""
