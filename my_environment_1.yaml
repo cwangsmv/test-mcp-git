@@ -1,0 +1,27 @@
+type: environment.insomnia.rest/5.0
+schema_version: "5.1"
+name: My Environment 1
+meta:
+  id: wrk_9456c230668f41b5826bcb778a17fd23
+  created: 1791452241564
+  modified: 1791452241564
+  description: ""
+environments:
+  name: Base Environment
+  meta:
+    id: env_cecd3d58d04fe8cc59a1a1b719a6ff9d07317cb2
+    created: 1791452241568
+    modified: 1791452245236
+    isPrivate: false
+  data:
+    foo: bar
+  subEnvironments:
+    - name: sub
+      meta:
+        id: env_f2e108a8d10c4faca28759c84a2c7071
+        created: 1791452246695
+        modified: 1791452252436
+        isPrivate: false
+        sortKey: 1791452246695
+      data:
+        foo: sub
